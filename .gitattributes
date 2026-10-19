@@ -1,0 +1,7 @@
+* text=auto eol=lf
+# Preserve upstream and generated release bytes for SHA-256 verification.
+vendor/** -text
+release/** -text
+*.bin binary
+*.png binary
+*.zip binary

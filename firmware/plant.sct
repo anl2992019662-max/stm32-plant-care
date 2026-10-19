@@ -1,0 +1,15 @@
+; STM32F103C8: 62 KiB code + 2 x 1 KiB configuration pages.
+LR_IROM1 0x08000000 0x0000F800 {
+  ER_IROM1 0x08000000 0x0000F800 {
+    *.o (RESET, +First)
+    *(InRoot$$Sections)
+    .ANY (+RO)
+  }
+  RW_IRAM1 0x20000000 0x00004000 {
+    .ANY (+RW +ZI)
+  }
+  ; The active startup stack must never be zeroed by __scatterload.
+  RW_STACK 0x20004000 UNINIT 0x00001000 {
+    startup.o (.bss.STACK)
+  }
+}

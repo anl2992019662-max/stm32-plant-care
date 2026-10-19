@@ -1,0 +1,2 @@
+# Only needed for a real Bluetooth/USB serial connection. Demo uses the standard library.
+pyserial==3.5

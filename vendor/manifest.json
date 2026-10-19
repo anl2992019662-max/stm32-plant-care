@@ -1,0 +1,72 @@
+[
+  {
+    "path": "vendor/cmsis-device-f1/Source/startup_stm32f103xb.s",
+    "url": "https://raw.githubusercontent.com/STMicroelectronics/cmsis-device-f1/v4.3.5/Source/Templates/arm/startup_stm32f103xb.s",
+    "sha256": "7828f544a385ccb4a51434528255383602b9a872fd193b250ea8e02218243002"
+  },
+  {
+    "path": "vendor/cmsis-device-f1/Include/stm32f1xx.h",
+    "url": "https://raw.githubusercontent.com/STMicroelectronics/cmsis-device-f1/v4.3.5/Include/stm32f1xx.h",
+    "sha256": "05e93fa3ddefb2e83d762b9ca4de36e3bba9cd8e9690400fe9f2c11fc0a3cef5"
+  },
+  {
+    "path": "vendor/cmsis-device-f1/Include/stm32f103xb.h",
+    "url": "https://raw.githubusercontent.com/STMicroelectronics/cmsis-device-f1/v4.3.5/Include/stm32f103xb.h",
+    "sha256": "d9c7c613d9fea74220892b4fbc3e80617493acad82a04bafadab2b4a7198399c"
+  },
+  {
+    "path": "vendor/cmsis-device-f1/Include/system_stm32f1xx.h",
+    "url": "https://raw.githubusercontent.com/STMicroelectronics/cmsis-device-f1/v4.3.5/Include/system_stm32f1xx.h",
+    "sha256": "a54dfbb3480c672f532d472a6e84bcf34df6551771d2e9966c5a3503c676b6ab"
+  },
+  {
+    "path": "vendor/cmsis-device-f1/License.md",
+    "url": "https://raw.githubusercontent.com/STMicroelectronics/cmsis-device-f1/v4.3.5/License.md",
+    "sha256": "b645e89bbfb6accf914cf7adca011712bf90055391fdd55f2af6439d98aa36d4"
+  },
+  {
+    "path": "vendor/CMSIS/LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/ARM-software/CMSIS_5/5.9.0/LICENSE.txt",
+    "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+  },
+  {
+    "path": "vendor/CMSIS/Include/core_cm3.h",
+    "url": "https://raw.githubusercontent.com/ARM-software/CMSIS_5/5.9.0/CMSIS/Core/Include/core_cm3.h",
+    "sha256": "c9937781259a8897adf514445441c68570087d6a72a558d8a4afe75cdb62dbd2"
+  },
+  {
+    "path": "vendor/CMSIS/Include/cmsis_version.h",
+    "url": "https://raw.githubusercontent.com/ARM-software/CMSIS_5/5.9.0/CMSIS/Core/Include/cmsis_version.h",
+    "sha256": "184c19fd3ee73632edf35a0b4d49cd48be75fbf49e6ccb19d9db05fa83bea4b3"
+  },
+  {
+    "path": "vendor/CMSIS/Include/cmsis_compiler.h",
+    "url": "https://raw.githubusercontent.com/ARM-software/CMSIS_5/5.9.0/CMSIS/Core/Include/cmsis_compiler.h",
+    "sha256": "b51963d271c1571ca3463654c76aa7ea50c4eac5d0a2710df10414ac64d9e0f8"
+  },
+  {
+    "path": "vendor/CMSIS/Include/cmsis_gcc.h",
+    "url": "https://raw.githubusercontent.com/ARM-software/CMSIS_5/5.9.0/CMSIS/Core/Include/cmsis_gcc.h",
+    "sha256": "43bfd1fe69fbbc2ca70aaf7d43cc3e20f16e0c7f66e1bdef9b51af6dc14b2617"
+  },
+  {
+    "path": "vendor/CMSIS/Include/cmsis_armclang.h",
+    "url": "https://raw.githubusercontent.com/ARM-software/CMSIS_5/5.9.0/CMSIS/Core/Include/cmsis_armclang.h",
+    "sha256": "d5da2b48204f0d0cf1ff38ffccb527e5706cd0a091ff0a331eb41d6596c33fe5"
+  },
+  {
+    "path": "vendor/CMSIS/Include/cmsis_armclang_ltm.h",
+    "url": "https://raw.githubusercontent.com/ARM-software/CMSIS_5/5.9.0/CMSIS/Core/Include/cmsis_armclang_ltm.h",
+    "sha256": "3e8ffb284f4f155de3ea93841cca853b41d5e812b53e52c64c3d4a67b7f1ec7c"
+  },
+  {
+    "path": "vendor/CMSIS/Include/cmsis_armcc.h",
+    "url": "https://raw.githubusercontent.com/ARM-software/CMSIS_5/5.9.0/CMSIS/Core/Include/cmsis_armcc.h",
+    "sha256": "5bc0d7ed8e36e9bcb868c4042fff350c702eca305df4162fb00384789e35ee1c"
+  },
+  {
+    "path": "vendor/CMSIS/Include/mpu_armv7.h",
+    "url": "https://raw.githubusercontent.com/ARM-software/CMSIS_5/5.9.0/CMSIS/Core/Include/mpu_armv7.h",
+    "sha256": "29206b52ee02290ed6f5a5415ebd4187de802cf176d9b3cb844390d8e5571372"
+  }
+]

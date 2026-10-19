@@ -1,0 +1,30 @@
+# Build products and personal IDE settings
+build/
+*.uvguix.*
+*.uvoptx
+*.bak
+*.o
+*.d
+*.axf
+*.map
+*.lst
+*.htm
+*.scvd
+RTE/
+Listings/
+Objects/
+# Local Python environment, measurements and credentials
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+logs/
+measurements/
+.DS_Store
+Thumbs.db
+~$*

@@ -1,0 +1,15 @@
+name: Portable control tests
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  portable-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tools/test.py --cc gcc
+      - run: python tools/verify.py
+# Hardware and the licensed Arm compiler are not simulated by this workflow.

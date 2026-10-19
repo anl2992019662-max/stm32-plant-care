@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1320" viewBox="0 0 1600 1320">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#54778a"/></marker></defs>
+<style>text{font-family:Arial,sans-serif;fill:#17344a} .title{font-size:30px;font-weight:700}.sub{font-size:19px}.label{font-size:18px}.small{font-size:15px}.wire{stroke:#54778a;stroke-width:2;fill:none}.power{stroke:#b26639;stroke-width:3;fill:none}</style>
+<rect width="1600" height="1320" fill="#f5f8fa"/>
+<text x="40" y="50" class="title">STM32 PLANT CARE | MODULE WIRING REFERENCE</text>
+<text x="40" y="82" class="sub">Reference design only - no physical hardware validation. All logic signals are 3.3 V.</text>
+<rect x="550" y="140" width="450" height="600" rx="10" fill="white" stroke="#c7d8e1" stroke-width="2"/>
+<text x="566" y="170" class="label">STM32F103C8T6 CORE BOARD</text>
+<text x="566" y="194" class="small">64 KiB Flash / 20 KiB RAM / 64 MHz HSI PLL</text>
+<rect x="40" y="150" width="330" height="70" rx="10" fill="white" stroke="#c7d8e1" stroke-width="2"/>
+<text x="56" y="180" class="label">CAPACITIVE SOIL</text>
+<text x="56" y="204" class="small">3.3 V supply; analog output</text>
+<path d="M370 185L550 185" class="wire" marker-end="url(#arrow)"/>
+<text x="460.0" y="175" text-anchor="middle" style="font-size:14px">AO to PA0</text>
+<rect x="40" y="250" width="330" height="70" rx="10" fill="white" stroke="#c7d8e1" stroke-width="2"/>
+<text x="56" y="280" class="label">ANALOG LIGHT</text>
+<text x="56" y="304" class="small">3.3 V supply; analog output</text>
+<path d="M370 285L550 285" class="wire" marker-end="url(#arrow)"/>
+<text x="460.0" y="275" text-anchor="middle" style="font-size:14px">AO to PA1</text>
+<rect x="40" y="350" width="330" height="70" rx="10" fill="white" stroke="#c7d8e1" stroke-width="2"/>
+<text x="56" y="380" class="label">DS18B20</text>
+<text x="56" y="404" class="small">3.3 V external power; 4.7k pull-up</text>
+<path d="M370 385L550 385" class="wire" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="460.0" y="375" text-anchor="middle" style="font-size:14px">DQ to PB5</text>
+<rect x="40" y="450" width="330" height="70" rx="10" fill="white" stroke="#c7d8e1" stroke-width="2"/>
+<text x="56" y="480" class="label">MH-Z19B / MH-Z19C</text>
+<text x="56" y="504" class="small">5 V supply; 3.3 V TTL UART</text>
+<path d="M370 485L550 485" class="wire" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="460.0" y="475" text-anchor="middle" style="font-size:14px">PA2 TX / PA3 RX</text>
+<rect x="1210" y="150" width="350" height="70" rx="10" fill="white" stroke="#c7d8e1" stroke-width="2"/>
+<text x="1226" y="180" class="label">SSD1306 OLED</text>
+<text x="1226" y="204" class="small">128x64; 0x3C; 3.3 V pull-ups</text>
+<path d="M1000 185L1210 185" class="wire" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="1105.0" y="175" text-anchor="middle" style="font-size:14px">PB6 SCL / PB7 SDA</text>
+<rect x="1210" y="250" width="350" height="70" rx="10" fill="white" stroke="#c7d8e1" stroke-width="2"/>
+<text x="1226" y="280" class="label">HC-05 SPP</text>
+<text x="1226" y="304" class="small">Check breakout supply; 3.3 V UART</text>
+<path d="M1000 285L1210 285" class="wire" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="1105.0" y="275" text-anchor="middle" style="font-size:14px">PA9 TX / PA10 RX</text>
+<rect x="1210" y="350" width="350" height="70" rx="10" fill="white" stroke="#c7d8e1" stroke-width="2"/>
+<text x="1226" y="380" class="label">SG90 SERVO</text>
+<text x="1226" y="404" class="small">Independent 5 V supply; common GND</text>
+<path d="M1000 385L1210 385" class="wire" marker-end="url(#arrow)"/>
+<text x="1105.0" y="375" text-anchor="middle" style="font-size:14px">PA6 PWM 50 Hz</text>
+<rect x="1210" y="450" width="350" height="70" rx="10" fill="white" stroke="#c7d8e1" stroke-width="2"/>
+<text x="1226" y="480" class="label">FOUR LOAD DRIVERS</text>
+<text x="1226" y="504" class="small">Pump / fan / grow LED / active buzzer</text>
+<path d="M1000 485L1210 485" class="wire" marker-end="url(#arrow)"/>
+<text x="1105.0" y="475" text-anchor="middle" style="font-size:14px">PB0 / PB1 / PB8 / PB9</text>
+<rect x="1210" y="550" width="350" height="70" rx="10" fill="white" stroke="#c7d8e1" stroke-width="2"/>
+<text x="1226" y="580" class="label">FOUR PUSHBUTTONS</text>
+<text x="1226" y="604" class="small">Each switch closes its GPIO to GND</text>
+<path d="M1210 585L1000 585" class="wire" marker-end="url(#arrow)"/>
+<text x="1105.0" y="575" text-anchor="middle" style="font-size:14px">PB13 / PB14 / PB15 / PA8</text>
+<rect x="1210" y="650" width="350" height="70" rx="10" fill="white" stroke="#c7d8e1" stroke-width="2"/>
+<text x="1226" y="680" class="label">RESERVOIR FLOAT</text>
+<text x="1226" y="704" class="small">Water sufficient: closed to GND</text>
+<path d="M1210 685L1000 685" class="wire" marker-end="url(#arrow)"/>
+<text x="1105.0" y="675" text-anchor="middle" style="font-size:14px">PB12 INPUT PULL-UP</text>
+<text x="574" y="555" class="small">SWD: PA13 / PA14 + GND + VTref (3.3 V)</text>
+<text x="574" y="584" class="small">BOOT0 = 0 for normal execution</text>
+<text x="574" y="613" class="small">RTC: board LSE crystal on PC14 / PC15,</text>
+<text x="574" y="642" class="small">or firmware LSI fallback (approximate).</text>
+<text x="574" y="671" class="small">VBAT wiring must be checked before battery.</text>
+<rect x="40" y="590" width="430" height="150" rx="10" fill="white" stroke="#c7d8e1" stroke-width="2"/>
+<text x="56" y="620" class="label">POWER AND WATER SEPARATION</text>
+<text x="56" y="648" class="small">Never power loads from MCU GPIO or 3.3 V.</text>
+<text x="56" y="670" class="small">Use fused external 5 V load branches.</text>
+<text x="56" y="692" class="small">Star-ground; keep motor return out of ADC GND.</text>
+<text x="56" y="714" class="small">Keep electronics dry; prevent pipe siphoning.</text>
+<rect x="40" y="775" width="1520" height="52" rx="8" fill="#e9f1f5"/>
+<text x="56" y="797" class="small">MH-Z19B: 4.5-5.5 V (discontinued). MH-Z19C: 5.0 +/- 0.1 V. Both use 3.3 V TTL; verify the purchased module.</text>
+<text x="56" y="818" class="small">Servo: start with 1000 / 1500 us and unloaded linkage. NC float switch is required for pump permission.</text>
+<rect x="40" y="850" width="1110" height="400" rx="10" fill="white" stroke="#c7d8e1" stroke-width="2"/>
+<text x="56" y="880" class="label">ACTIVE-HIGH LOW-SIDE MOSFET CHANNEL (REPEAT FOR EACH LOAD)</text>
+<g transform="translate(0,35)">
+<text x="62" y="914" class="label">GPIO</text>
+<path d="M120 910L205 910" class="wire" marker-end="url(#arrow)"/>
+<rect x="205" y="899" width="75" height="22" fill="white" stroke="#54778a" stroke-width="2"/>
+<text x="211" y="890" class="small">100 ohm</text>
+<path d="M280 910H390V1045H630" class="wire"/>
+<path d="M390 1045V1080" class="wire"/><rect x="379" y="1080" width="22" height="55" fill="white" stroke="#54778a" stroke-width="2"/><path d="M390 1135V1160H790V1100" class="wire"/>
+<text x="278" y="1113" class="small">10k pull-down</text>
+<circle cx="730" cy="1045" r="66" fill="white" stroke="#54778a" stroke-width="2"/><path d="M630 1045H700M700 1005V1085M735 1008V1082M735 1018H790V980M735 1072H790V1160" class="wire"/>
+<text x="658" y="1000" class="small">G</text>
+<text x="802" y="1000" class="small">D</text>
+<text x="802" y="1118" class="small">S</text>
+<text x="640" y="1185" class="small">AO3400A: check pinout and thermal/current limits</text>
+<rect x="730" y="901" width="120" height="60" fill="#e9f5ee" stroke="#54778a" stroke-width="2"/><path d="M790 961V980M790 901V875H1070V901M790 875H650" class="power"/>
+<text x="750" y="937" class="small">5 V LOAD</text>
+<text x="596" y="880" class="small">+5 V</text>
+<rect x="1000" y="901" width="120" height="82" fill="#fff2e6" stroke="#a67a50" stroke-width="2"/><path d="M1070 983V1000H790V980" class="wire"/>
+<text x="1010" y="925" class="small">FLYBACK</text>
+<text x="1010" y="949" class="small">K -&gt; +5 V</text>
+<text x="1010" y="971" class="small">A -&gt; DRAIN</text>
+<text x="822" y="1157" class="small">POWER GND</text>
+<path d="M790 1160V1168M773 1168H807M779 1174H801" class="wire"/></g>
+<text x="65" y="958" class="small">No direct motor/LED load on GPIO.</text>
+<text x="65" y="983" class="small">5 V grow LED must include current limiting.</text>
+<text x="65" y="1008" class="small">Flyback is for inductive loads; observe polarity.</text>
+<rect x="1190" y="850" width="370" height="400" rx="10" fill="white" stroke="#c7d8e1" stroke-width="2"/>
+<text x="1206" y="880" class="label">CHANNEL ASSIGNMENT</text>
+<text x="1208" y="922" class="small">Q1 / PB0 : WATER PUMP</text>
+<text x="1208" y="950" class="small">Q2 / PB1 : FAN</text>
+<text x="1208" y="978" class="small">Q3 / PB8 : GROW LIGHT</text>
+<text x="1208" y="1006" class="small">Q4 / PB9 : ACTIVE BUZZER</text>
+<text x="1208" y="1034" class="small">External 10k Gate-to-GND on all.</text>
+<text x="1208" y="1062" class="small">Pump, fan, magnetic buzzer:</text>
+<text x="1208" y="1090" class="small">use rated flyback protection.</text>
+<text x="1208" y="1118" class="small">Check startup/stall current.</text>
+<text x="1208" y="1146" class="small">Use a separate load power switch.</text>
+<text x="40" y="1293" class="small">Cross-check hardware/pinout.csv and docs/hardware.md before wiring. No PCB fabrication files or certified electrical design are implied.</text>
+</svg>

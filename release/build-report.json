@@ -1,0 +1,40 @@
+{
+  "tool": "Arm Compiler 6",
+  "tool_version": "Product: MDK Plus 5.43\nComponent: Arm Compiler for Embedded 6.24\nTool: armclang [5f371800]\n\nTarget: unspecified-arm-none-none",
+  "target": "STM32F103C8T6",
+  "code_bytes": 12456,
+  "code_limit": 63488,
+  "hardware_tested": false,
+  "source_sha256": {
+    "firmware/include/board.h": "1007fae939b6b2f60949066040225e03acf45e06577d47e5121c6b51b512b1d0",
+    "firmware/include/plant.h": "8cf5c4d634311429642eb32a816912efc703dde3a2b3d399ee54280f0e7add67",
+    "firmware/plant.sct": "8e7d644cc25a13bae2eb01ec3740243cb4f21c07fab1f040fa5a99cead91978a",
+    "firmware/src/board.c": "a19e961b02824aec0e8f0f0ab961027ad993eb1ebb8b8ce16dcd41c904a6a1c7",
+    "firmware/src/codecs.c": "0b188a251c8f0b7b93faa90678c13e0cbb36f6b9fb3f48b8940b06e62742eebe",
+    "firmware/src/main.c": "3252136b2600fa3105aab10c96b4de5c7f6d2d52ca2a6278248a912c0efed9ac",
+    "firmware/src/oled.c": "9a99cbbd10d5b334721587768681491f9c4b48c53c247bbfaa959bbfb9e884da",
+    "firmware/src/plant.c": "08d555b1e9e7dcb455d8b057c292c314dd9495c45c0d3cf1d6323a8a21da3749",
+    "firmware/src/startup.c": "503637a178a89770ea0a8afc22ee82ade4ac8a620d91fece673c42de5d1c7603",
+    "firmware/src/storage_rtc.c": "772b21534b2f38ab97e0dffefd49018d1945aef1642bb1f77aa3263b58874c59",
+    "tools/build_keil.py": "36ae99100c0de256dcd8b2fed19e0fe10ca3de4b54532037a19a70543c465e97",
+    "vendor/CMSIS/Include/cmsis_armcc.h": "5bc0d7ed8e36e9bcb868c4042fff350c702eca305df4162fb00384789e35ee1c",
+    "vendor/CMSIS/Include/cmsis_armclang.h": "d5da2b48204f0d0cf1ff38ffccb527e5706cd0a091ff0a331eb41d6596c33fe5",
+    "vendor/CMSIS/Include/cmsis_armclang_ltm.h": "3e8ffb284f4f155de3ea93841cca853b41d5e812b53e52c64c3d4a67b7f1ec7c",
+    "vendor/CMSIS/Include/cmsis_compiler.h": "b51963d271c1571ca3463654c76aa7ea50c4eac5d0a2710df10414ac64d9e0f8",
+    "vendor/CMSIS/Include/cmsis_gcc.h": "43bfd1fe69fbbc2ca70aaf7d43cc3e20f16e0c7f66e1bdef9b51af6dc14b2617",
+    "vendor/CMSIS/Include/cmsis_version.h": "184c19fd3ee73632edf35a0b4d49cd48be75fbf49e6ccb19d9db05fa83bea4b3",
+    "vendor/CMSIS/Include/core_cm3.h": "c9937781259a8897adf514445441c68570087d6a72a558d8a4afe75cdb62dbd2",
+    "vendor/CMSIS/Include/mpu_armv7.h": "29206b52ee02290ed6f5a5415ebd4187de802cf176d9b3cb844390d8e5571372",
+    "vendor/CMSIS/LICENSE.txt": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "vendor/cmsis-device-f1/Include/stm32f103xb.h": "d9c7c613d9fea74220892b4fbc3e80617493acad82a04bafadab2b4a7198399c",
+    "vendor/cmsis-device-f1/Include/stm32f1xx.h": "05e93fa3ddefb2e83d762b9ca4de36e3bba9cd8e9690400fe9f2c11fc0a3cef5",
+    "vendor/cmsis-device-f1/Include/system_stm32f1xx.h": "a54dfbb3480c672f532d472a6e84bcf34df6551771d2e9966c5a3503c676b6ab",
+    "vendor/cmsis-device-f1/License.md": "b645e89bbfb6accf914cf7adca011712bf90055391fdd55f2af6439d98aa36d4",
+    "vendor/cmsis-device-f1/Source/startup_stm32f103xb.s": "7828f544a385ccb4a51434528255383602b9a872fd193b250ea8e02218243002",
+    "vendor/manifest.json": "ee69913bca95e391dd66ec8b83a39a573734c8d19e31e1d7c551764eec57c1f8"
+  },
+  "image_sha256": {
+    "plant-care.bin": "1a30dfc64dfd50ab57f9f9e2898fa7b5cea0571f60651b691d18ace5458f23f3",
+    "plant-care.hex": "c4c8098037ed55ef382c0ad19b63de740f3147bf17d81abbb00f0914cac60008"
+  }
+}

@@ -1,0 +1,22 @@
+PASS test_boot_and_calibration
+PASS test_hysteresis_and_stale
+PASS test_pump_limits_and_repetition
+PASS test_budget_and_stop_accounting
+PASS test_leases_and_wrap
+PASS test_protocol_rejects_bad_inputs
+PASS test_line_overflow_and_nonascii
+PASS test_adc_and_sensor_integrity
+PASS test_storage_crc_and_torn_commit
+PASS test_telemetry_warmup_nulls
+PASS test_randomized_control_invariants
+11 test groups passed. No hardware claims.
+test_fault_descriptions (test_companion.ProtocolTests.test_fault_descriptions) ... ok
+test_invalid_frame (test_companion.ProtocolTests.test_invalid_frame) ... ok
+test_no_command_injection (test_companion.ProtocolTests.test_no_command_injection) ... ok
+test_units_and_null (test_companion.ProtocolTests.test_units_and_null) ... ok
+test_actual_c_core_roundtrip (test_companion.SameCoreSimulationTests.test_actual_c_core_roundtrip) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.210s
+
+OK

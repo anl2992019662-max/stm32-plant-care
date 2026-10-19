@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "date_utc": "2026-10-19T12:53:01.063892+00:00",
+  "native_compiler": "zig.exe",
+  "source_sha256": {
+    "tests/simulator.c": "b00e6e214c0eec840f697987cb22aae1f472e622ec101880926533d5fa6cdb83",
+    "tests/test_core.c": "c1a1e2cbc79389bed54f56fce69e96c7164e62244314e922e3600815b5658e85",
+    "tests/test_companion.py": "e3e7595bf59a9102fadaac9def8c39582ea354a57d3e790c4a610272652cd06f",
+    "desktop/app.py": "97da6629ed513c14af15345b2ec86c96261ea0a53b77398db79b5137e8d84fb5",
+    "desktop/protocol.py": "22ec2d7f624b7ae2e192b9a0173638cddada79085304feb4c2dddf3764de87ee",
+    "desktop/transport.py": "1e11be3b631cbb6395e5df3437164ed05247793279ef90c2af5b22025ec66814",
+    "firmware/src/plant.c": "08d555b1e9e7dcb455d8b057c292c314dd9495c45c0d3cf1d6323a8a21da3749",
+    "firmware/src/codecs.c": "0b188a251c8f0b7b93faa90678c13e0cbb36f6b9fb3f48b8940b06e62742eebe",
+    "firmware/include/plant.h": "8cf5c4d634311429642eb32a816912efc703dde3a2b3d399ee54280f0e7add67",
+    "tools/test.py": "da0d0be32b5eeb7c462ad9f647dc8d28e78654d851c868566e47eceda8785ded"
+  }
+}

@@ -1,0 +1,24 @@
+pin,signal,interface,direction,logic
+PA0,SOIL_AO,ADC1_IN0,input,0-3.3V
+PA1,LIGHT_AO,ADC1_IN1,input,0-3.3V
+PA2,CO2_RX,USART2_TX,output,3.3V TTL
+PA3,CO2_TX,USART2_RX,input,3.3V TTL
+PA6,SERVO,TIM3_CH1,output,50Hz 1000/1500us reference
+PA8,K4,GPIO,input,pullup active-low
+PA9,HC05_RX,USART1_TX,output,3.3V TTL
+PA10,HC05_TX,USART1_RX,input,3.3V TTL
+PA13,SWDIO,SWD,debug,reserved
+PA14,SWCLK,SWD,debug,reserved
+PB0,PUMP_GATE,GPIO,output,active-high external pulldown
+PB1,FAN_GATE,GPIO,output,active-high external pulldown
+PB5,DS18_DQ,1-Wire,bidirectional,open-drain external 4.7k to 3.3V
+PB6,OLED_SCL,software I2C,output,open-drain pullup to 3.3V
+PB7,OLED_SDA,software I2C,bidirectional,open-drain pullup to 3.3V
+PB8,LAMP_GATE,GPIO,output,active-high external pulldown
+PB9,BUZZER_GATE,GPIO,output,active-high external pulldown
+PB12,WATER_OK,GPIO,input,pullup closed to GND when water sufficient
+PB13,K1,GPIO,input,pullup active-low
+PB14,K2,GPIO,input,pullup active-low
+PB15,K3,GPIO,input,pullup active-low
+PC14,OSC32_IN,RTC,optional,board 32.768kHz crystal
+PC15,OSC32_OUT,RTC,optional,board 32.768kHz crystal
