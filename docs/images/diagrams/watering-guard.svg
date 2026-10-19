@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="950" viewBox="0 0 1400 950" role="img" aria-label="绿植养护浇水许可与默认限制">
+<defs><marker id="end" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#47718e"/></marker></defs>
+<rect width="1400" height="950" fill="#fff"/>
+<rect width="1400" height="152" fill="#122b40"/>
+<rect x="44" y="38" width="6" height="75" fill="#31814b"/>
+<text x="72" y="76" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="34" fill="#fff" font-weight="700" text-anchor="start">绿植养护浇水许可与默认限制</text>
+<text x="74" y="116" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="18" fill="#c9dbe8" font-weight="400" text-anchor="start">所有模式共用这些限制，图中数值为当前默认软件配置</text>
+<rect x="80" y="190" width="890" height="115" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="80" y="190" width="5" height="115" rx="2" fill="#31814b"/>
+<text x="99" y="222" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">收到浇水请求</text>
+<text x="99" y="251" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">自动 / 本地 / 蓝牙任一模式</text>
+<polyline points="525,307 525,333" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<rect x="80" y="345" width="890" height="115" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="80" y="345" width="5" height="115" rx="2" fill="#31814b"/>
+<text x="99" y="377" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">水位与土壤条件有效</text>
+<text x="99" y="406" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">浮球有水；土壤采样有效并已标定</text>
+<polyline points="525,462 525,488" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<polyline points="972,402 1060,402" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<rect x="80" y="500" width="890" height="115" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="80" y="500" width="5" height="115" rx="2" fill="#31814b"/>
+<text x="99" y="532" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">冷却与预算允许</text>
+<text x="99" y="561" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">默认冷却 60 秒；每运行小时累计最多 15 秒</text>
+<polyline points="525,617 525,643" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<polyline points="972,557 1060,557" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<rect x="80" y="655" width="890" height="115" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="80" y="655" width="5" height="115" rx="2" fill="#31814b"/>
+<text x="99" y="687" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">限时执行水泵请求</text>
+<text x="99" y="716" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">默认单次最多 3 秒；重复请求不延长计时</text>
+<rect x="1070" y="350" width="270" height="260" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="1070" y="350" width="5" height="260" rx="2" fill="#a26332"/>
+<text x="1089" y="382" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">条件不满足</text>
+<text x="1089" y="411" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">水泵保持关闭</text>
+<text x="1089" y="440" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">手动受阻请求撤销</text>
+<text x="1089" y="469" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">条件恢复后需重发</text>
+<rect x="44" y="855" width="1312" height="70" rx="10" fill="#edf3f7"/>
+<text x="65" y="883" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="16" fill="#425f73" font-weight="400" text-anchor="start">断电会重置 RAM 中的时长预算，不能防止反复断电导致重复浇水；没有流量反馈。</text>
+<text x="65" y="908" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="16" fill="#425f73" font-weight="400" text-anchor="start">阈值和浇水时长需按植物与实际负载验收，不能据此声称已经节水或提高存活率。</text>
+</svg>

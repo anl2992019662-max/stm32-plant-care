@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-label="绿植养护蓝牙串口与电脑工具">
+<defs><marker id="end" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#47718e"/></marker></defs>
+<rect width="1400" height="820" fill="#fff"/>
+<rect width="1400" height="152" fill="#122b40"/>
+<rect x="44" y="38" width="6" height="75" fill="#31814b"/>
+<text x="72" y="76" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="34" fill="#fff" font-weight="700" text-anchor="start">绿植养护蓝牙串口与电脑工具</text>
+<text x="74" y="116" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="18" fill="#c9dbe8" font-weight="400" text-anchor="start">经典蓝牙 SPP 近距离连接，不依赖互联网或云平台</text>
+<rect x="45" y="210" width="400" height="185" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="45" y="210" width="5" height="185" rx="2" fill="#31814b"/>
+<text x="64" y="242" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">手机串口工具 / 电脑工具</text>
+<text x="64" y="271" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">发送大写 ASCII 指令</text>
+<text x="64" y="300" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">按行接收 OK / ERR 与 JSON</text>
+<text x="64" y="329" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">电脑端可显示曲线并记录 CSV</text>
+<rect x="515" y="240" width="360" height="125" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="515" y="240" width="5" height="125" rx="2" fill="#31814b"/>
+<text x="534" y="272" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">HC-05 蓝牙串口</text>
+<text x="534" y="301" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">UART 9600 / 8N1</text>
+<text x="534" y="330" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">USART1 PA9 TX / PA10 RX</text>
+<rect x="955" y="210" width="400" height="185" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="955" y="210" width="5" height="185" rx="2" fill="#31814b"/>
+<text x="974" y="242" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">STM32 固件</text>
+<text x="974" y="271" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">解析命令、判断模式与限制</text>
+<text x="974" y="300" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">JSON 遥测默认每 2 秒推送</text>
+<text x="974" y="329" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">GET 可主动请求一帧遥测</text>
+<polyline points="447,270 503,270" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<polyline points="877,270 943,270" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<polyline points="943,340 887,340" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<polyline points="503,340 447,340" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<rect x="45" y="493" width="625" height="152" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="45" y="493" width="5" height="152" rx="2" fill="#31814b"/>
+<text x="64" y="525" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">控制路径</text>
+<text x="64" y="554" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">MODE REMOTE / SET / PING / STOP</text>
+<text x="64" y="583" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">REMOTE 需要有效心跳；10 秒超时归零</text>
+<rect x="730" y="493" width="625" height="152" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="730" y="493" width="5" height="152" rx="2" fill="#31814b"/>
+<text x="749" y="525" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">观测路径</text>
+<text x="749" y="554" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">遥测展示传感器、模式、故障与 out 位</text>
+<text x="749" y="583" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">out 仅是软件输出状态，实物动作需验证</text>
+<rect x="44" y="725" width="1312" height="70" rx="10" fill="#edf3f7"/>
+<text x="65" y="753" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="16" fill="#425f73" font-weight="400" text-anchor="start">未提供独立手机 App、Wi-Fi 或互联网远程服务；蓝牙配对与串口工具按实际系统配置。</text>
+<text x="65" y="778" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="16" fill="#425f73" font-weight="400" text-anchor="start">完整语法、控制条件与遥测字段见 docs/protocol.md。</text>
+</svg>

@@ -1,0 +1,35 @@
+{
+  "updated_on": "2026-10-19",
+  "hardware_tested": false,
+  "generation_mode": "built-in image_gen",
+  "illustrations": [
+    {
+      "path": "docs/images/plant-overall.png",
+      "title": "整体搭建效果示意",
+      "caption": "展示花盆、水箱、泵、风扇、灯、遮阳和干区控制盒的概念布局。外形和尺寸并非已制造方案，图中屏幕排版也不是实际固件截图。",
+      "kind": "AI-generated-reference-illustration",
+      "hardware_tested": false,
+      "sha256": "ae3570387ce64f40d5580c9b4068f89b8e24f81700592beb8cd7896bc7f9107a",
+      "prompt": "Create a new engineering concept illustration for a Chinese STM32 plant-care GitHub project. It must look like a precise educational product concept drawing on a plain white studio background, clean neutral lighting, fine outlines and restrained green/blue color, no advertising styling, no leafy blurred background, no giant title, no unrelated futuristic hardware. Do not show a finished real prototype photograph. Show generic correct small modules, not commercial branded equipment. No actual pin-to-pin wiring claims, mains wiring, fake measured sensor results or performance badges. Clearly readable footer text exactly: “设计示意 · 尚未实物验证”. All text in Chinese where specified, short and legible. Wide landscape layout, about 1600x1000. Primary request: an isometric assembly concept of a small desktop pot-plant care rig. One ordinary plant in a pot under a simple adjustable shade panel actuated by a single SG90 micro servo, an LED grow light bar above, a small side fan providing ventilation, a separate water reservoir with a small low-voltage pump and one blue tube ending at the soil. Dry electronics housed in a modest front control box away from water, with a small monochrome OLED and four push buttons. An inset transparent cutaway shows an STM32F103 blue pill controller, HC-05 serial Bluetooth module and driver board, with no exact traces. Temperature probe DS18B20 and soil moisture probe near the pot; one separate compact CO2 module placed in air. Short callout labels: “补光灯”, “舵机遮阳”, “风扇”, “水箱与水泵”, “传感器”, “控制盒”. No phone, cloud, solar panels or completed PCB claim. Show the whole assembly and keep every callout readable."
+    },
+    {
+      "path": "docs/images/plant-modules.png",
+      "title": "硬件模块布局参考",
+      "caption": "用分组方式说明主控、采集、交互、驱动和低压供电。图中器件造型仅为示意，型号与数量以采购清单、接线和代码为准。",
+      "kind": "AI-generated-reference-illustration",
+      "hardware_tested": false,
+      "sha256": "628e922f6f260093afe5218699ad7625a4c0536730f9eea50e9568d09f0744cb",
+      "prompt": "Create a new engineering concept illustration for a Chinese STM32 plant-care GitHub project. It must look like a precise educational product concept drawing on a plain white studio background, clean neutral lighting, fine outlines and restrained green/blue color, no advertising styling, no leafy blurred background, no giant title, no unrelated futuristic hardware. Do not show a finished real prototype photograph. Show generic correct small modules, not commercial branded equipment. No actual pin-to-pin wiring claims, mains wiring, fake measured sensor results or performance badges. Clearly readable footer text exactly: “设计示意 · 尚未实物验证”. All text in Chinese where specified, short and legible. Wide landscape layout, about 1600x1000. Primary request: a tidy exploded educational hardware module layout with five separated groups around a generic STM32F103C8T6 blue pill, represented as identifiable modules with no exact wiring. Group “采集”: stainless DS18B20 probe, a two-prong soil probe plus analog light sensor, MH-Z19B CO2 box. Group “交互”: a tiny 128x64 SSD1306 OLED, four buttons, HC-05 Bluetooth serial module. Group “驱动”: small MOSFET driver modules, pump, fan, LED bar, SG90 servo. Group “供电”: separate low-voltage DC supply module, no mains plug or battery or solar. Group “电脑端”: simple laptop icon with neutral telemetry curves and label “电脑工具”, no fabricated numeric readings. Use neat numbered callouts and abundant whitespace, tasteful technical illustration with crisp realistic component geometry, not photorealistic desktop scene. Large caption at top: “绿植养护硬件模块参考”. Explicitly avoid DHT11 as the temperature sensor, ESP32 boards, Arduino logos and a phone app.\n\nFollow-up edit prompt:\nEdit this plant-care educational module illustration. Change only two text labels while preserving all objects, layout, other text and bottom disclaimer. In lower-left driver group, replace “MOSFET 驱动模块 ×2” with “MOSFET 负载驱动模块” (remove the quantity because this is a module illustration, not an exact bill of materials). Under the soil moisture sensor in upper-left, replace “（电阻式）” with “（模拟量，按选型）”. Keep “土壤湿度 传感器” text unchanged. Preserve all other elements and “设计示意 · 尚未实物验证” exactly. Do not add new components or quantities.\n"
+    },
+    {
+      "path": "docs/images/plant-actions.png",
+      "title": "浇水补光与通风路径示意",
+      "caption": "解释水路、光路、舵机遮阳与通风采集。图中机械布局是解释性示意，不能作为已完成的结构设计或接线依据。",
+      "kind": "AI-generated-reference-illustration",
+      "hardware_tested": false,
+      "sha256": "270ad159c4caa07f8158d9fd307150286f7e6720af35af616b5700c8056fd241",
+      "prompt": "Create a new engineering concept illustration for a Chinese STM32 plant-care GitHub project. It must look like a precise educational product concept drawing on a plain white studio background, clean neutral lighting, fine outlines and restrained green/blue color, no advertising styling, no leafy blurred background, no giant title, no unrelated futuristic hardware. Do not show a finished real prototype photograph. Show generic correct small modules, not commercial branded equipment. No actual pin-to-pin wiring claims, mains wiring, fake measured sensor results or performance badges. Clearly readable footer text exactly: “设计示意 · 尚未实物验证”. All text in Chinese where specified, short and legible. Wide landscape layout, about 1600x1000. Primary request: a three-panel cutaway technical illustration of the same desktop potted-plant reference system showing water, light/shade and ventilation paths. Left panel label “限时浇水”: reservoir pump and blue water tube to pot soil, separate water-level float switch in reservoir and soil probe in pot; blue flow arrows. Center panel label “补光与遮阳”: LED bar above leaves and hinged shade panel with SG90 servo, yellow light rays; no solar panel. Right panel label “通风与采集”: a small fan, DS18B20 metal temperature probe and an MH-Z19B CO2 sensing module in the air, thin green airflow arrows. Use drawing style like an illustrated engineering manual, crisp labels with leaders, plain white background, no marketing icon rows. Do not include timer numbers, output claims, voltage specs or wiring schematic. Every image is conceptual and bottom footer must remain “设计示意 · 尚未实物验证”."
+    }
+  ],
+  "diagram_note": "四张 SVG 为本次根据源码与接线文档重新绘制；不是电路仿真结果。"
+}

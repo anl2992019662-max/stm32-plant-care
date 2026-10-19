@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000" role="img" aria-label="绿植养护控制流程">
+<defs><marker id="end" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#47718e"/></marker></defs>
+<rect width="1400" height="1000" fill="#fff"/>
+<rect width="1400" height="152" fill="#122b40"/>
+<rect x="44" y="38" width="6" height="75" fill="#31814b"/>
+<text x="72" y="76" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="34" fill="#fff" font-weight="700" text-anchor="start">绿植养护控制流程</text>
+<text x="74" y="116" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="18" fill="#c9dbe8" font-weight="400" text-anchor="start">模式请求经过共同限制后才形成实际软件输出</text>
+<rect x="450" y="185" width="500" height="95" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="450" y="185" width="5" height="95" rx="2" fill="#31814b"/>
+<text x="469" y="217" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">复位与初始化</text>
+<text x="469" y="246" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">撤销输出请求，进入手动模式</text>
+<polyline points="700,282 700,315" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<rect x="450" y="327" width="500" height="95" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="450" y="327" width="5" height="95" rx="2" fill="#31814b"/>
+<text x="469" y="359" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">读取传感器并校验</text>
+<text x="469" y="388" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">温度 CRC、串口校验、采样和水位</text>
+<polyline points="700,424 700,460" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<rect x="50" y="494" width="400" height="100" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="50" y="494" width="5" height="100" rx="2" fill="#31814b"/>
+<text x="69" y="526" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">自动请求</text>
+<text x="69" y="555" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">阈值、回差与传感器状态</text>
+<polyline points="700,460 250,460 250,482" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<polyline points="250,596 250,639 700,639 700,670" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<rect x="500" y="494" width="400" height="100" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="500" y="494" width="5" height="100" rx="2" fill="#31814b"/>
+<text x="519" y="526" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">手动请求</text>
+<text x="519" y="555" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">本地按键与空闲超时</text>
+<polyline points="700,460 700,460 700,482" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<polyline points="700,596 700,639 700,639 700,670" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<rect x="950" y="494" width="400" height="100" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="950" y="494" width="5" height="100" rx="2" fill="#31814b"/>
+<text x="969" y="526" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">蓝牙请求</text>
+<text x="969" y="555" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">SPP 指令与 10 秒控制租约</text>
+<polyline points="700,460 1150,460 1150,482" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<polyline points="1150,596 1150,639 700,639 700,670" fill="none" stroke="#47718e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#end)"/>
+<rect x="350" y="682" width="700" height="124" rx="12" fill="#f5f8fb" stroke="#c8d9e5"/>
+<rect x="350" y="682" width="5" height="124" rx="2" fill="#31814b"/>
+<text x="369" y="714" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="20" fill="#17374d" font-weight="700" text-anchor="start">统一检查与输出</text>
+<text x="369" y="743" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">水泵许可、限时、冷却和预算；模式变化撤销旧请求</text>
+<text x="369" y="772" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="17" fill="#4d6678" font-weight="400" text-anchor="start">更新风扇 / 水泵 / 灯 / 舵机，刷新显示与遥测</text>
+<rect x="44" y="905" width="1312" height="70" rx="10" fill="#edf3f7"/>
+<text x="65" y="933" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="16" fill="#425f73" font-weight="400" text-anchor="start">各模式都受水泵限制；软件输出不等于实物电机已经转动。</text>
+<text x="65" y="958" font-family="Microsoft YaHei, Noto Sans SC, Arial, sans-serif" font-size="16" fill="#425f73" font-weight="400" text-anchor="start">方案尚未实物验证；故障处理与使用边界见 README.md、docs/acceptance.md。</text>
+</svg>
